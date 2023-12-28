@@ -43,6 +43,7 @@ void setup()
 
 void loop()
 {
+  
   if (Serial.available() > 0){
 
     serialInput = Serial.read(); 
